@@ -1,0 +1,24 @@
+body{
+    direction: rtl;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    padding-top: 1vh;
+}
+
+td{
+    line-height: 1.5;
+    /* display: inline-block; */
+    vertical-align: middle;
+    text-align: justify;
+    /* text-justify: kashida; */
+}
+.container > table > * > *>*:first-child{
+    white-space: nowrap!important;
+}
+.container > table > tbody > *>*:nth-child(2){
+    font-size: 0;
+    min-width: 150px;
+}
+.container > table > tbody > *:active >*:nth-child(2), .fontsizeIn{
+    font-size: inherit !important;
+}
