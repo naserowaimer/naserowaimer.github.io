@@ -17,7 +17,7 @@ td{
 }
 .container > table > tbody > *>*:nth-child(2){
     font-size: 0;
-/*     min-width: 150px; */
+    min-width: 150px;
 }
 .container > table > tbody > *:active >*:nth-child(2), .fontsizeIn{
     font-size: inherit !important;
